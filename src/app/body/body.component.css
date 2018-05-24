@@ -8,14 +8,20 @@
 .project {
 width: 300px;
 height: 300px;
-background-image: url(C:\Users\Moncho\ProyectosAngular\rollFate\src\assets\moneda.jpg);
+background-image: url('..\..\assets\img\moneda.jpg');
 background-size: cover;
 background-position: center;
 padding: 10 !important;
-
+Float: right;
 }
 
+.project-2 {
+	background-image: url('..\..\assets\img\masuno.jpg');
+}
 
+.project-3 {
+	background-image: url('..\..\assets\img\menosuno.jpg');
+}
 
 .project-hover {
 width: 100%;
