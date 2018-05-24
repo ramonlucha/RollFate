@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+<div align="center">
+<button type="button" (click)="rollDices()" class="btn btn-success btn-lg btn3d" style='width:140px; height:50px' ><strong>TIRAR</strong></button>
+
+<div class="container" >
+  <div *ngFor="let number of dices">
+	  <div *ngIf="number == 3 || number == 0" aling="center"  class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project wow animated animated4 fadeInLeft">
+    </div>
+    <div *ngIf="number == 2" aling="center"  class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-3 wow animated animated4 fadeInLeft">
+    </div>
+    <div *ngIf="number == 1" aling="center"  class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-2 wow animated animated4 fadeInLeft">
+    </div>
+  </div>    
+</div>
+</div>
