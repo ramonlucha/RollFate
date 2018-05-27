@@ -14,12 +14,15 @@ background-position: center;
 padding: 10 !important;
 Float: right;
 }
-
-.project-2 {
+.buttonRoll{
+width:140px;
+height:50px;
+}
+.oneplus {
 	background-image: url('..\..\assets\img\masuno.jpg');
 }
 
-.project-3 {
+.oneless {
 	background-image: url('..\..\assets\img\menosuno.jpg');
 }
 
