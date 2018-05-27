@@ -1,0 +1,14 @@
+<div align="center">
+  <button type="button" (click)="rollDices()" class="btn btn-success btn-lg btn3d buttonRoll"><strong>ROLL</strong></button>
+
+  <div class="container" >
+    <div *ngFor="let number of dices">
+	    <div *ngIf="number == 3 || number == 0" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project ">
+      </div>
+      <div *ngIf="number == 2" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project oneless ">
+      </div>
+      <div *ngIf="number == 1" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project oneplus ">
+      </div>
+    </div>    
+  </div>
+</div>
